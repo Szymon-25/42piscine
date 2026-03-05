@@ -1,0 +1,1 @@
+ls -t -p | awk '{printf t $1 $2} {t=", "} END {print ""}'
